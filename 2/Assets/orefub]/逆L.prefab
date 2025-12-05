@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6059625393366454565}
   - component: {fileID: 8180906414876908464}
   - component: {fileID: 203166126593115242}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &203166126593115242
 MonoBehaviour:
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 7518024218585763958}
   - component: {fileID: 3565288877967243224}
   - component: {fileID: 6875505494883794988}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &6875505494883794988
 MonoBehaviour:
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 6348257256474257463}
   - component: {fileID: 1038801800587204102}
   - component: {fileID: 8974215401094499740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &8974215401094499740
 MonoBehaviour:
@@ -456,8 +456,7 @@ GameObject:
   - component: {fileID: 8765882377064445623}
   - component: {fileID: 499990588092749213}
   - component: {fileID: 114608653017429447}
-  - component: {fileID: -53457024788777673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u9006L"
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -581,7 +580,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &114608653017429447
 MonoBehaviour:
@@ -596,30 +595,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentController: {fileID: 0}
---- !u!50 &-53457024788777673
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7195074655309924057}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4

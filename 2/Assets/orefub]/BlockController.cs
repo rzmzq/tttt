@@ -2,17 +2,5 @@ using UnityEngine;
 
 public class BlockController : MonoBehaviour
 {
-    [HideInInspector]
-    public TetrisController parentController;
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("触った: " + collision.gameObject.name);
-
-        // Block タグのものに触れたときだけ停止
-        if (collision.gameObject.CompareTag("Block"))
-        {
-            parentController.StopCurrentBlock();
-        }
-    }
+    // このスクリプトは不要。削除してOK。
 }

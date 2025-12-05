@@ -26,16 +26,16 @@ public class TetrisController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.D))
                 MoveHorizontal(+1);
 
-            // ▼ 回転（Qキー）
+            // 回転（Qキー）
             if (Input.GetKeyDown(KeyCode.Q))
                 RotateBlock();
 
-            // ▼ 落下速度（Wを押している間は3倍）
+            // 落下速度（Wを押している間は3倍）
             float interval = fallInterval;
             if (Input.GetKey(KeyCode.W))
                 interval = fallInterval / 3f;
 
-            // ▼ 自動落下
+            // 自動落下
             fallTimer += Time.deltaTime;
             if (fallTimer >= interval)
             {
@@ -65,12 +65,10 @@ public class TetrisController : MonoBehaviour
         SnapToGrid(currentBlock);
         SnapChildrenToGrid(currentBlock);
 
-        currentBlock.GetComponent<BlockController>().parentController = this;
-
         Debug.Log("Spawned Block: " + tetrominoPrefabs[index].name);
     }
 
-    // ▼ 真下だけ判定して落下可能かどうか調べる
+    // ▼ 真下だけ判定して落下可能かどうか調べる（Debug入り）
     bool CanMoveDown(GameObject block)
     {
         foreach (Transform child in block.transform)
@@ -89,6 +87,7 @@ public class TetrisController : MonoBehaviour
 
             if (hit.collider != null)
             {
+                Debug.Log("Hit: " + hit.collider.name);
                 return false;
             }
         }
