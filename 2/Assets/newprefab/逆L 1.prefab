@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 448067289492196927}
   - component: {fileID: 5215653058805019102}
   - component: {fileID: 8762046056983340301}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3791468513745675137}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.34642863, y: -0.34471536, z: 0.0057340376}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -133,7 +133,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &8762046056983340301
 MonoBehaviour:
@@ -147,7 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &6257406853413704063
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +159,7 @@ GameObject:
   - component: {fileID: 7390573517853341873}
   - component: {fileID: 3716966729609104906}
   - component: {fileID: 8791828330901810568}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +175,7 @@ Transform:
   m_GameObject: {fileID: 6257406853413704063}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3464286, y: 0.65528464, z: 0.0057340376}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -281,7 +280,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &8791828330901810568
 MonoBehaviour:
@@ -295,7 +294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &7029106646959954621
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +319,7 @@ Transform:
   m_GameObject: {fileID: 7029106646959954621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6535714, y: 3.3447154, z: -0.0057340376}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -343,7 +341,7 @@ GameObject:
   - component: {fileID: 5614208340151841881}
   - component: {fileID: 2851779565700178727}
   - component: {fileID: 6325922738613107818}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +357,7 @@ Transform:
   m_GameObject: {fileID: 7635905346379328980}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.65357137, y: -0.34471536, z: 0.0057340376}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -464,7 +462,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &6325922738613107818
 MonoBehaviour:
@@ -478,7 +476,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &8142494322406729890
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +488,7 @@ GameObject:
   - component: {fileID: 6135712795110062457}
   - component: {fileID: 4994803972980950144}
   - component: {fileID: 1337384468475263567}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +504,7 @@ Transform:
   m_GameObject: {fileID: 8142494322406729890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3464286, y: -0.34471536, z: 0.0057340376}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -612,7 +609,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.96, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1337384468475263567
 MonoBehaviour:
@@ -626,4 +623,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}

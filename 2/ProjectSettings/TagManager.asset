@@ -13,11 +13,11 @@ TagManager:
   - Block
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - FallingBlock
+  - PlacedBlock
+  - Wall
+  - SideWall
+  - Floor
   - 
   - 
   - 

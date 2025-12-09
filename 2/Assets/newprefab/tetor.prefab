@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5359436581571929745}
   - component: {fileID: 525291424138040002}
   - component: {fileID: 3258719833806604276}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 443757384796777027}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8793061, y: -0.83869123, z: 0.0057340376}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -133,7 +133,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.81, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &3258719833806604276
 MonoBehaviour:
@@ -147,7 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &3648754314784913059
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +159,7 @@ GameObject:
   - component: {fileID: 236990255785935621}
   - component: {fileID: 1148220561830090962}
   - component: {fileID: 4251549485500884085}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +175,7 @@ Transform:
   m_GameObject: {fileID: 3648754314784913059}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8793061, y: 0.16130877, z: 0.0057340376}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -281,7 +280,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.81, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &4251549485500884085
 MonoBehaviour:
@@ -295,7 +294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &5312140987468082680
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +306,7 @@ GameObject:
   - component: {fileID: 8637591983490558731}
   - component: {fileID: 6390243578433501578}
   - component: {fileID: 8665142788846130756}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +322,7 @@ Transform:
   m_GameObject: {fileID: 5312140987468082680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8793061, y: -0.83869123, z: 0.0057340376}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -429,7 +427,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.81, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &8665142788846130756
 MonoBehaviour:
@@ -443,7 +441,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &5481123821457252018
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +453,7 @@ GameObject:
   - component: {fileID: 3356902188678678063}
   - component: {fileID: 8677962234764408455}
   - component: {fileID: 2850010546771681886}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +469,7 @@ Transform:
   m_GameObject: {fileID: 5481123821457252018}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12069392, y: -0.83869123, z: 0.0057340376}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -577,7 +574,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.81, y: 0.94}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &2850010546771681886
 MonoBehaviour:
@@ -591,7 +588,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &9033064864238566838
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +613,7 @@ Transform:
   m_GameObject: {fileID: 9033064864238566838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1206939, y: 4.838691, z: -0.0057340376}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0057034036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

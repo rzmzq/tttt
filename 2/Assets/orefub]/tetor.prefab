@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1714996324377189620}
   - component: {fileID: 257613185202807987}
   - component: {fileID: 1433623823994800039}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: tetor
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &5008652005729214254
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,7 +162,7 @@ GameObject:
   - component: {fileID: 6568351565588888663}
   - component: {fileID: 3348486862016287634}
   - component: {fileID: 3317720164302698251}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Square (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &6730555029838783769
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,7 +309,7 @@ GameObject:
   - component: {fileID: 7856056071683644235}
   - component: {fileID: 9193852332254070635}
   - component: {fileID: 7979974525203224005}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Square (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
 --- !u!1 &8751437693039076526
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +456,7 @@ GameObject:
   - component: {fileID: 238504374431938852}
   - component: {fileID: 5528061688069100146}
   - component: {fileID: 2561095934766188952}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Square (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,4 +591,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16a8c66b0eb89d4586291a173402be2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
